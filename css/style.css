@@ -1,0 +1,24 @@
+.input-group{
+	    width: 50%;
+    margin: 0 auto;
+}
+#pagination li{
+	cursor: pointer;
+}
+#users li.name{
+	cursor: pointer;
+}
+#users li.active{
+	cursor: auto;
+}
+.active{
+	color: #fff !important;
+	background-color: #337ab7 !important;
+	border-color: #fff !important;
+}
+ul.nav{
+	/*margin: 0 400px;*/
+}
+ul.nav li a {
+	font-size: 18px;
+}
