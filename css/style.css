@@ -22,3 +22,19 @@ ul.nav{
 ul.nav li a {
 	font-size: 18px;
 }
+#author input{
+	padding: 3px;
+	border: 0;
+}
+#author table{
+	    border: 1px solid #717171;
+}
+#author td{
+	padding: 3px;
+}
+#author th{
+	padding: 6px;
+}
+#author button{
+	margin: 10px 5px;
+}
