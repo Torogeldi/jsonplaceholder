@@ -42,8 +42,10 @@ function getUsers(){
 		data.forEach((users) =>{
 
 	result += `<ul class="list-group">
-				<li class="list-group-item active">${users.id}</li>
-				<li onmouseover="User()" val="https://jsonplaceholder.typicode.com/users?name=${users.name}" class="name list-group-item">${users.name}</li>
+				<li class="list-group-item active">ID: ${users.id}</li>
+				<li onmouseover="User()" val="https://jsonplaceholder.typicode.com/users?name=${users.name}" class="name list-group-item">Имя: ${users.name}</li>
+				<li class="list-group-item">Логин: ${users.username}</li>
+				<li class="list-group-item">Email: ${users.email}</li>
 			  </ul>`;
 
 			document.getElementById('users').innerHTML = result;
